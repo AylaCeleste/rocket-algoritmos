@@ -51,7 +51,7 @@ python3 sistema_qualidade.py
 ```
 
 🏭 SISTEMA DE CONTROLE DE QUALIDADE INDUSTRIAL
-==================================================================
+
 
 📋 MENU PRINCIPAL:
 
@@ -63,7 +63,7 @@ python3 sistema_qualidade.py
   6. Processamento em lote
   0. Sair do sistema
 
-==================================================================
+
 ```
 
 ### Descrição das Opções
@@ -93,13 +93,13 @@ Comprimento da peça (cm): 15
 
 **Saída:**
 ```
-==================================================================
+
 ✅ PEÇA APROVADA!
 
 Peça #1 - Peso: 100g, Cor: azul, Comprimento: 15cm
 Status: APROVADA
 Armazenada na Caixa #1
-==================================================================
+
 ```
 
 ### Exemplo 2: Cadastrando uma Peça Reprovada
@@ -115,7 +115,7 @@ Comprimento da peça (cm): 8
 
 **Saída:**
 ```
-==================================================================
+
 ❌ PEÇA REPROVADA!
 
 Peça #2 - Peso: 110g, Cor: vermelho, Comprimento: 8cm
@@ -125,7 +125,7 @@ Motivos da reprovação:
   • Peso fora do padrão (110g - esperado: 95g a 105g)
   • Cor inválida (vermelho - esperado: azul ou verde)
   • Comprimento fora do padrão (8cm - esperado: 10cm a 20cm)
-==================================================================
+
 ```
 
 ### Exemplo 3: Listando Peças Aprovadas
@@ -144,9 +144,9 @@ Opção: 1
 
 **Saída:**
 ```
-==================================================================
+
 ✅ PEÇAS APROVADAS
-==================================================================
+
 
 Total: 3 peça(s)
 
@@ -156,7 +156,7 @@ Total: 3 peça(s)
   Status: APROVADA | Caixa: #1
 • Peça #5 - Peso: 102g, Cor: azul, Comprimento: 18cm
   Status: APROVADA | Caixa: #1
-==================================================================
+
 ```
 
 ### Exemplo 4: Removendo uma Peça
@@ -188,9 +188,9 @@ Escolha uma opção: 4
 
 **Saída:**
 ```
-==================================================================
+
 📦 CAIXAS FECHADAS
-==================================================================
+
 
 Total de caixas fechadas: 1
 
@@ -198,7 +198,7 @@ Total de caixas fechadas: 1
    Conteúdo: 10 peças
    IDs das peças: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 
-==================================================================
+
 ```
 
 ### Exemplo 6: Relatório Final Completo
@@ -210,9 +210,9 @@ Escolha uma opção: 5
 
 **Saída:**
 ```
-==================================================================
+
 RELATÓRIO CONSOLIDADO DE PRODUÇÃO E QUALIDADE
-==================================================================
+
 
 📊 ESTATÍSTICAS GERAIS:
    Total de peças processadas: 20
@@ -240,7 +240,7 @@ RELATÓRIO CONSOLIDADO DE PRODUÇÃO E QUALIDADE
      └─ Peças: 11, 12, 13, 14
 
 ✨ EFICIÊNCIA DA LINHA: 70.0%
-==================================================================
+
 
 ## 🏗️ Arquitetura do Sistema
 
